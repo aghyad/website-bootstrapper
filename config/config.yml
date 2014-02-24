@@ -1,0 +1,11 @@
+global:
+  project_title: "<b>My Website</b>"
+  footer: "&copy; my-company 2014"
+
+development:
+
+staging:
+
+qc:
+
+production:
