@@ -1,28 +1,11 @@
-== README
+== Website Bootstrapper
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This bare-bones app is meant to be used as is, to create a quick and functional structure of a website on ruby 2.1.1 and rails 4.0.3
 
-Things you may want to cover:
+Please clone the repository at your own risk and make sure to write tests and customize the config/database.yml and config/config.yml files.
 
-* Ruby version
+make sure also to run bundle install, rake db: create:all, rake db:migrate
 
-* System dependencies
+You can run your rspec test using the command 'rspec'
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+That's all. Happy Coding!
