@@ -1,5 +1,8 @@
 require 'spec_helper'
 
 describe User do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "returns the full user name when calling full_name" do
+    u = build(:user, first_name: "jiMMY", last_name:"JoHNsON")
+    expect(u.full_name).to eq "Jimmy Johnson"
+  end
 end
