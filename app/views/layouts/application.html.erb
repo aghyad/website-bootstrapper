@@ -59,7 +59,7 @@
                 <li><%= link_to "Welcome Guest", "" %></li>
                 <li><%= link_to "Sign In", new_user_session_path %></li>
               <% else %>
-                <li><%= link_to "Welcome #{current_user.full_name}", "" %></li>
+                <li><%= link_to "Welcome #{current_user.full_name}", edit_user_registration_path %></li>
                 <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
               <% end %>
             </ul>
